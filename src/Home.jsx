@@ -1,0 +1,52 @@
+import React, { useState } from "react";
+import useCounter from "./useCounter";
+import Navbar from "./NavBar";
+import "./index.css";
+import  styles from "./Navbar.module.css"
+
+const CounterPage = () => {
+  const { count, increment, decrement, reset, setValue } = useCounter();
+  const [inputValue, setInputValue] = useState("");
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
+  const handleSetValue = () => {
+    const parsedValue = parseInt(inputValue);
+    if (!isNaN(parsedValue)) {
+      setValue(parsedValue);
+      setInputValue("");
+    }
+  };
+
+  return (
+    <>
+      <Navbar />
+      <div className="container">
+        <h1 className="heading">Counter</h1>
+        <h3>Count: {count}</h3>
+        <div className="som">
+          <input
+            type="number"
+            value={inputValue}
+            onChange={handleInputChange}
+            placeholder="Enter Counter Value"
+            className="input"
+          />
+          <div className="der"><button onClick={handleSetValue} className="setValue">
+            Set Value
+          </button></div>
+          
+        </div>
+        <div className="change">
+          <button onClick={increment}>Increment</button>
+          <button onClick={reset}>Reset</button>
+          <button onClick={decrement}>Decrement</button>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default CounterPage;
