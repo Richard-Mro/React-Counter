@@ -1,0 +1,167 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+
+  --color-container: rgb(108, 195, 242);
+  --color-round: rgb(99, 85, 190);
+  --color-harsh: rgb(81, 81, 85);
+  --color-realHarsh: rgb(140, 140, 152);
+  --color-white: rgb(212, 217, 220);
+  --color-realWhite: #fff;
+  --color-black: 36, 36, 36;
+  --color-realBlack: #28292a;
+  --color-darkblue: darkblue;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.noBlueHighlight {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* This is use to remove the blue highlight when clicked*/
+.noBlueHighlight:focus {
+  outline: none;
+}
+
+.light-theme {
+  --color-background: var(--color-white);
+  --color-nav: var(--color-round);
+  --color-shadow: var(--color-black);
+  --color-box-shadow: 9px 7px 10px 0px rgba(var(--color-shadow), 0.5);
+  --color-box-shadow-hover: 3px -1px 33px 0px rgba(var(--color-shadow), 0.5);
+  --color-contain: var(--color-container);
+  --color-heading: var(--color-round);
+  --color-second-heading: var(--color-darkblue);
+  --color-input-border: none;
+  --color-input-background: var(--color-white);
+  --button-border: 1px solid var(--color-contain);
+  --button-border-hover: 1px solid var(--color-darkblue);
+  --button-color: var(--color-round);
+  --button-background: var(--color-white);
+  --button-background-theme: var(--color-realWhite);
+}
+
+.dark-theme {
+  --color-background: var(--color-realBlack);
+  --color-nav: var(--color-realHarsh);
+  --color-shadow: var(--color-harsh);
+  --color-box-shadow: -6px -6px 10px 0px var(--color-shadow);
+  --color-box-shadow-hover: 5px 5px 25px 5px var(--color-shadow);
+  --color-contain: var(--color-round);
+  --color-heading: var(--color-realHarsh);
+  --color-second-heading: var(--color-realWhite);
+  --color-input-border: var(--color-realBlack);
+  --color-input-background: var(--color-harsh);
+  --color-input: var(--color-realWhite);
+  --button-border: 1px solid var(--color-round);
+  --button-border-hover: 1px solid var(--color-white);
+  --button-color: var(--color-realWhite);
+  --button-background: var(--color-realBlack);
+  --button-background-theme: var(--color-harsh);
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-round);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-round);
+}
+
+.container {
+  background-color: var(--color-contain);
+  margin: 110px auto;
+  max-width: 400px;
+  box-shadow: var(--color-box-shadow);
+  border-radius: 10px;
+  padding: 10px;
+  transition: background-color 65s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+.container:hover {
+  box-shadow: var(--color-box-shadow-hover);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 15px;
+  color: var(--color-heading);
+  text-shadow: 3px 3px 5px var(--color-harsh);
+}
+
+h3 {
+  margin: 10px 10px;
+  color: var(--color-second-heading);
+}
+
+button {
+  color: var(--button-color);
+  border-radius: 8px;
+  margin: 5px 10px;
+  border: var(--button-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-background);
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+button:hover {
+  border: var(--button-border-hover);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  display: inline-block;
+  padding: 0px 0px 0px 8px;
+  width: 218px;
+  color: var(--color-input);
+  background-color: var(--color-input-background);
+  min-height: 30px;
+  border: 3px solid var(--color-input-border);
+  border-radius: 5px;
+}
+
+.der {
+  display: inline-block;
+  margin-left: 8px;
+}
+.change {
+  margin-bottom: 5px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--color-background);
+  transition: background-color 0.3s ease;
+}

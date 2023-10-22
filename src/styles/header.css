@@ -1,0 +1,10 @@
+.header-toggle-buttons button {
+  color: var(--button-color);
+  padding: 5px 15px;
+  border: 2px solid var(--color-contain);
+  cursor: pointer;
+}
+
+.header-toggle-buttons button:hover {
+  background-color: var(--button-background-theme);
+}

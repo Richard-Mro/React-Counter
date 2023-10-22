@@ -4,9 +4,8 @@ function TestErrorBoundary() {
   return (
     <>
       <button>
-        <a href="/error">ErrorBoundaryTest</a> 
+        <a href="/error">ErrorBoundaryTest</a>
       </button>
-      <div></div>
     </>
   );
 }
