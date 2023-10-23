@@ -7,7 +7,7 @@ Question 2
 Setup a custom counter hook with increment, decrement, reset, setValue functions with a valid UI. Implement a page for the custom hook, 404, and a page to test error boundary.
 
 ## Solution Link
-Access my site at
+Access my site at 
 
 ## Table Of Contents  📑
 
@@ -34,12 +34,14 @@ This Project is made up of a Custom Counter Hook with SetValue, Reset, Increment
 ## Screenshots 📷
 Here is a Screenshot of the Themes(Light and Dark)
 ### Light Mode
-![alt Screens](https://github.com/Richard-Mro/React-Counter-Project/assets/104454092/17be2d0b-e876-4e29-b15f-5f19c572355f)
+![alt Screens](https://github.com/Richard-Mro/React-Counter/assets/104454092/abcb2871-2ea8-4f81-bd0f-6e0da9de7c1a)
+
 ### Dark Mode
-![alt Screens2](https://github.com/Richard-Mro/React-Counter-Project/assets/104454092/d5543acf-2f80-4b43-b85f-97d8fc696ae6)
+![alt Screens2](https://github.com/Richard-Mro/React-Counter/assets/104454092/e35591bf-0139-4bca-9bf2-7533945c1133)
 
 
-## Technologies Used: ☕️ 🐍 ⚛️
+
+## Technologies Used: ⚛️
 This Project was Bootsrapped with <img width="30px" height="30px" alt="Vite Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png"/> <a href ="https://vitejs.dev/guide/">VITE</a> + <img width="30px" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"><a href="https://react.dev/"> REACT</a>  
 
 I used `HTML` `CSS` `REACT.JS` in this Project
