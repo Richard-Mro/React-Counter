@@ -12,14 +12,16 @@ Access my site at
 ## Table Of Contents  📑
 
 <!--ts-->
-   - [About This Project](#about-this-project)
-   - [Screenshots](#screenshots)
+   - [About This Project](#about-this-project-)
+   - [Screenshots](#screenshots-)
       - [Light Mode](#Light-Mode)
       - [Dark Mode](#Dark-Mode)
-   - [Technologies](#technologies-used)
-   - [Installation](#setup/Installation)
-   - [Approach](#approach)
-   - [Status](#status) 
+   - [Technologies](#technologies-used-%EF%B8%8F)
+   - [Installation](#setup--installation-)
+   - [Approach](#approach-)
+   - [Status](#status-)
+   - [Credits](#credits-)
+   - [License](#license-%EF%B8%8F)
 <!--te-->
 
 ## About This Project 📚
