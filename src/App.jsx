@@ -19,10 +19,20 @@ const App = () => {
     <>
       <div className={`App ${theme}`}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/testError" element={<TestErrorBoundary />}></Route>
-          <Route path="/error" element={<ErrorBoundaryTest />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<Home />} 
+            {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}/>
+          <Route path="/testError" element={<TestErrorBoundary />}
+            {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}></Route>
+          <Route path="/error" element={<ErrorBoundaryTest />} {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}/>
+          <Route path="*" element={<NotFound />} {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}/>
         </Routes>
       </div>
     </>
