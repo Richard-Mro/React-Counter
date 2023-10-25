@@ -1,6 +1,6 @@
 import styles from "./styles/Navbar.module.css";
 import { NavLink } from "react-router-dom";
-import IconSvg from "./IconSvg";
+import IconSvg from "../Components/IconSvg";
 
 function Navbar() {
   return (

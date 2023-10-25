@@ -1,9 +1,9 @@
 import { React, StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App.jsx";
+import App from "../Components/App";
 import ErrorBoundary from "./Pages/ErrorBoundary.jsx";
-import { ThemeProvider } from "./Theme";
+import { ThemeProvider } from "../Components/Theme";
 
 const root = document.getElementById("root");
 const wrap = ReactDOM.createRoot(root);
