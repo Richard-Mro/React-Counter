@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import useCounter from "../Custom Hook/useCounter";
-import Navbar from "../Components/NavBar";
+import Navbar from "../NavBar";
 import "../styles/index.css";
-import Header from "../Components/Header";
+import Header from "../Header";
 
 const CounterPage = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
