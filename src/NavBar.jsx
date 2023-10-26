@@ -25,7 +25,7 @@ function Navbar() {
               ? `${styles.active} ${styles.navbar_link}`
               : `${styles.navbar_link}`
           }
-          to="/notFound"
+          to="*"
         >
           404 Page
         </NavLink>
