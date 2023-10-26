@@ -25,7 +25,7 @@ function Navbar() {
               ? `${styles.active} ${styles.navbar_link}`
               : `${styles.navbar_link}`
           }
-          to="*"
+          to="/notFound"
         >
           404 Page
         </NavLink>
@@ -37,7 +37,7 @@ function Navbar() {
               ? `${styles.active} ${styles.navbar_link}`
               : `${styles.navbar_link}`
           }
-          to="/testError"
+          to="*"
         >
           Error Page
         </NavLink>
