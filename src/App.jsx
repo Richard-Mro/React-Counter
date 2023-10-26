@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/CounterPage";
 import TestErrorBoundary from "./TestErrorBoundary";
-import NotFound from "./Pages/404-Page";
+import NotFound from "./Pages/NotFound";
 import "./styles/App.css";
 import "./styles/index.css";
 import { ThemeContext } from "./Theme";
@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/testError" element={<TestErrorBoundary />} />
-          <Route path="*" element={<RealErrorTest/>} />
+          <Route path="/error" element={<RealErrorTest/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
