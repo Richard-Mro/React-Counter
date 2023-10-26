@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/testError" element={<TestErrorBoundary />} />
-          <Route path="*" element={<RealErrorTest/>} />
+    {      <Route path="/error" element={<RealErrorTest/>} />}
           <Route path="/notFound" element={<NotFound />} />
         </Routes>
       </div>
