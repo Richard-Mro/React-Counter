@@ -37,7 +37,7 @@ function Navbar() {
               ? `${styles.active} ${styles.navbar_link}`
               : `${styles.navbar_link}`
           }
-          to="*"
+          to="/testError"
         >
           Error Page
         </NavLink>
