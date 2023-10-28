@@ -1,13 +1,12 @@
 const NotFound = () => {
   return (
-    <div>
+    <div style={{marginTop:"15px"}}>
       <a
         href="/"
         style={{
           color: "darkblue",
           textDecoration: "none",
           fontWeight: "bold",
-          marginTop: "10px",
         }}
       >
         Back to Counter Page
