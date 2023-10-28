@@ -158,6 +158,7 @@ input {
 * {
   padding: 0;
   margin: 0;
+  width: 100vw;
   max-width: 100vw;
 }
 .App {
