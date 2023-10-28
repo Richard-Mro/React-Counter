@@ -158,12 +158,11 @@ input {
 * {
   padding: 0;
   margin: 0;
-  width: 100vw;
-  max-width: 100vw;
+/*   max-width: 100vw; */
 }
 .App {
   min-height: 100vh;
-  width: 100%;
+  min-width: 100vw;
   background-color: var(--color-background);
   transition: background-color 0.3s ease;
 }
