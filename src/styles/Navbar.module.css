@@ -46,7 +46,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .navbar {
     display: flex;
     flex-direction: column;
