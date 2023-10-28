@@ -4,7 +4,7 @@ const NotFound = () => {
       <a
         href="/"
         style={{
-          color: "lightblue",
+          color: "grey",
           textDecoration: "none",
           fontWeight: "bold",
         }}
