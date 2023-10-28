@@ -4,7 +4,7 @@ function TestErrorBoundary() {
   return (
     <>
       <button style={{
-            marginTop: "250px",
+            marginTop: "280px",
           }}>
         <a
           href="/error"
