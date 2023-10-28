@@ -25,7 +25,7 @@ class ErrorBoundary extends Component {
           }}
         >
           <h2 style={{ color: "red", marginBottom: "30px" }}>
-            Something went wrong!
+           Error ! Something went wrong !!
           </h2>
           <a
             href="/"
@@ -35,7 +35,7 @@ class ErrorBoundary extends Component {
               fontWeight: "bold",
             }}
           >
-            Back to Counter
+            Back to Counter Page
           </a>
         </div>
       );

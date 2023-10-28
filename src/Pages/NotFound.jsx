@@ -9,9 +9,9 @@ const NotFound = () => {
           fontWeight: "bold",
         }}
       >
-        Back to Counter
+        Back to Counter Page
       </a>
-      <h1 style={{ color: "blue" }}>404 - Not Found</h1>
+      <h1 style={{ color: "blue" }}>404 - Page Not Found</h1>
     </div>
   );
 };
