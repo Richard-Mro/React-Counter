@@ -3,12 +3,12 @@ import React from "react";
 function TestErrorBoundary() {
   return (
     <>
-      <button>
+      <button style={{
+            marginTop: "150px",
+          }}>
         <a
           href="/error"
-          style={{
-            marginTop: "150px",
-          }}
+         
         >
           Test Error Boundary
         </a>
