@@ -15,7 +15,7 @@ function Navbar() {
           to="/"
         >
           <IconSvg />
-          Counter
+          Counter Page
         </NavLink>
       </span>
       <span className={styles.navbar_container}>
