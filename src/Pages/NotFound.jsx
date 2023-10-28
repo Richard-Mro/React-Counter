@@ -7,6 +7,7 @@ const NotFound = () => {
           color: "darkblue",
           textDecoration: "none",
           fontWeight: "bold",
+          marginTop: 10,
         }}
       >
         Back to Counter Page
