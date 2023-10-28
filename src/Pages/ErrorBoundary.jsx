@@ -24,8 +24,8 @@ class ErrorBoundary extends Component {
             alignItems: "center",
           }}
         >
-          <h2 style={{ color: "red", marginBottom: "30px" }}>
-           Error ! Something went wrong !!
+          <h2 style={{ color: "red", marginBottom: "30px", marginTop:"10px" }}>
+            Error! Something went wrong.
           </h2>
           <a
             href="/"

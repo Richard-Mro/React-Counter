@@ -7,7 +7,7 @@ function TestErrorBoundary() {
         <a
           href="/error"
           style={{
-            marginTop: 150,
+            marginTop: "150px",
           }}
         >
           Test Error Boundary
