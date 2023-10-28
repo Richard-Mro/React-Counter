@@ -1,6 +1,6 @@
 const NotFound = () => {
   return (
-    <div style={{paddingTopTop:"15px"}}>
+    <div style={{paddingTop:"15px"}}>
       <a
         href="/"
         style={{

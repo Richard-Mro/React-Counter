@@ -30,7 +30,7 @@ class ErrorBoundary extends Component {
           <a
             href="/"
             style={{
-              color: "blue",
+              color: "grey",
               textDecoration: "none",
               fontWeight: "bold",
             }}
