@@ -83,10 +83,10 @@ Installation Process Complete ✅
 A Navigation Bar was Created for the Counter Page to enable Navigation from one Page to another and styled it to be responsive for different Kind of Screens, Dark and Light theme was also created for an overall better User experience/ Interface, There is a button at the bottom of the screen to enable that effect.
 
 ## Status: 📶
-This project is completed till further notice.
+This project is under development
 
 ## Credits: 📝
-It's a one Man work created by my Inspiration 
+My Inspiration 
 
 ## License: ©️
 No license for now
