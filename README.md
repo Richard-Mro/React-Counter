@@ -19,9 +19,6 @@ Access my site at https://react-counter-two-lyart.vercel.app/
    - [Technologies used](#technologies-used-%EF%B8%8F)
    - [Setup/Installation](#setup--installation-)
    - [Approach](#approach-)
-   - [Status](#status-)
-   - [Credits](#credits-)
-   - [License](#license-%EF%B8%8F)
 <!--te-->
 
 ## About This Project 📚
